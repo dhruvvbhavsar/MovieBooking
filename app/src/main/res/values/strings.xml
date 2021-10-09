@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LaCinephile</string>
+    <string-array name="Date">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="Time">
+        <item>12:00 pm</item>
+        <item>6:00 pm</item>
+        <item>11:00pm</item>
+    </string-array>
+    <string-array name="Seat">
+        <item>Silver</item>
+        <item>Gold</item>
+        <item>Platinum</item>
+    </string-array>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
