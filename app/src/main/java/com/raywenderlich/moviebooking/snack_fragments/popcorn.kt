@@ -29,6 +29,14 @@ class popcorn : Fragment() {
     ): View? {
         _binding = FragmentPopcornBinding.inflate(inflater,container,false)
 
+        binding.button2.setOnClickListener {
+            Toast.makeText(activity, "More Snacks", Toast.LENGTH_SHORT).show()
+
+            Intent(activity, Snack::class.java).also {
+                startActivity(it)
+            }
+        }
+
         return binding.root
     }
 
