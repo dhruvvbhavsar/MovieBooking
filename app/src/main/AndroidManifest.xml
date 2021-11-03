@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Moviebooking">
         <activity
+            android:name=".Snack_Des"
+            android:exported="false" />
+        <activity
+            android:name=".Snack"
+            android:exported="false" />
+        <activity
             android:name=".Description"
             android:exported="true" />
         <activity

@@ -2,12 +2,11 @@ package com.raywenderlich.moviebooking
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.raywenderlich.moviebooking.databinding.ActivityDescriptionBinding
-import com.raywenderlich.moviebooking.fragments.*
+import com.raywenderlich.moviebooking.movie_fragments.*
 
 
 class Description : AppCompatActivity() {
-    var interStellar = Interstellar()
+    var interStellarr = Interstellarr()
     var spiderman = Spiderman()
     var nowyouseeme = Nowyouseeme()
     var catchme = catchMe()
@@ -24,7 +23,7 @@ class Description : AppCompatActivity() {
         setContentView(R.layout.activity_description)
         when (id) {
             1 -> supportFragmentManager.beginTransaction().apply {
-                replace(R.id.fragmentContainerView, interStellar)
+                replace(R.id.fragmentContainerView, interStellarr)
                 commit()
             }
 
